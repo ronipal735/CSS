@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#box1 {
+    background-color: hotpink;
+}
+
+#box1:hover {
+    transform: rotate(45deg);
+}
+
+#box2 {
+    background-color: rgb(162, 173, 81);
+}
+
+#box2:hover {
+    transform: rotate(180deg);
+}
+
+#box3 {
+    background-color: rgb(119, 129, 221);
+}
+
+#box3:hover {
+    transform: rotatex(45deg);
+}
+
+#box4 {
+    background-color: rgb(22, 118, 24);
+}
+
+#box4:hover {
+    transform: rotatey(45deg);
+}
+
+#box5 {
+    background-color: aquamarine;
+}
+
+#box5:hover {
+    transform: scale(2);
+}
+
+#box6 {
+    background-color: moccasin;
+}
+
+#box6:hover {
+    transform: scaley(2);
+}
+
+#box7 {
+    background-color: goldenrod;
+}
+
+#box7:hover {
+    transform: translate(50px);
+}
+
+#box8 {
+    background-color: mediumseagreen;
+}
+
+#box8:hover {
+    transform: translate(50px, 50px);
+}
+
+#box9 {
+    background-color: azure;
+}
+
+#box9:hover {
+    transform: translateY(50px)
+}
+
+#box10 {
+    background-color: hotpink;
+}
+
+#box10:hover {
+    transform: Skew(45deg);
+}
+
+#box11 {
+    background-color: rgb(162, 173, 81);
+}
+
+#box11:hover {
+    transform: Skew(180deg);
+}

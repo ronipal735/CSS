@@ -1,0 +1,148 @@
+         * {
+             margin: 0px;
+             padding: 0px;
+         }
+
+         .box {
+             height: 100px;
+             width: 100px;
+             border: 2px solid;
+             padding: 10px;
+             margin: 5px;
+             font-size: 20px;
+         }
+
+         #container {
+             height: 400px;
+             width: 1200px;
+             border: 3px solid black;
+             background-color: bisque;
+
+             display: flex;
+             flex-direction: row;
+         }
+
+         #box1 {
+             background-color: greenyellow;
+         }
+
+         #box2 {
+             background-color: pink;
+         }
+
+         #box3 {
+             background-color: lightblue;
+         }
+
+         #box4 {
+             background-color: lightcoral;
+             align-self: center;
+             /**/
+         }
+
+         #box5 {
+             background-color: lightgreen;
+         }
+
+         #container2 {
+             height: 400px;
+             width: 1200px;
+             border: 3px solid black;
+             background-color: lavender;
+             margin-top: 10px;
+
+             display: flex;
+             flex-direction: column;
+         }
+
+         #box6 {
+             background-color: greenyellow;
+         }
+
+         #box7 {
+             background-color: pink;
+         }
+
+         #box8 {
+             background-color: lightblue;
+         }
+
+         #box9 {
+             background-color: lightcoral;
+             flex-shrink: 2;
+             /**/
+         }
+
+         #box10 {
+             background-color: lightgreen;
+         }
+
+         #container3 {
+             height: 400px;
+             width: 1200px;
+             border: 3px solid black;
+             background-color: bisque;
+
+             display: flex;
+             flex-direction: row-reverse;
+         }
+
+         #box11 {
+             background-color: greenyellow;
+         }
+
+         #box12 {
+             background-color: pink;
+             flex-grow: 1;
+             /**/
+         }
+
+         #box13 {
+             background-color: lightblue;
+         }
+
+         #box14 {
+             background-color: lightcoral;
+         }
+
+         #box15 {
+             background-color: lightgreen;
+         }
+
+         #container4 {
+             height: 400px;
+             width: 1200px;
+             border: 3px solid black;
+             background-color: lavender;
+             margin-top: 10px;
+
+             display: flex;
+             justify-content: space-evenly;
+             /*Order*/
+             align-items: center;
+         }
+
+         #box16 {
+             background-color: greenyellow;
+             order: 3;
+         }
+
+         #box17 {
+             background-color: pink;
+             order: 2;
+         }
+
+         #box18 {
+             background-color: lightblue;
+             order: 5;
+         }
+
+         #box19 {
+             background-color: lightcoral;
+             order: 1;
+         }
+
+         #box20 {
+             background-color: lightgreen;
+             order: 4;
+         }

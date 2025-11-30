@@ -1,0 +1,55 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 30px;
+            background-color: aqua;
+        }
+
+        nav {
+            padding: 5px;
+        }
+
+        nav a {
+            margin-left: 100px;
+            text-decoration: none;
+        }
+
+        #second {
+            background-color: green;
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            background-color: crimson;
+            display: inline-block;
+        }
+
+        #box2 {
+            z-index: 2;
+            margin: 30px;
+            position: absolute;
+        }
+
+        #container {
+            border: 5px solid;
+            margin: 10px;
+        }
+
+        #box4 {
+            position: fixed;
+            left: 300px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0px;
+            background-color: lightseagreen;
+        }

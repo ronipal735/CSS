@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #button1 {
+            margin: 20px 15px 10px 15px;
+            padding: 5px 10px 15px 20px;
+            background-color: cornflowerblue;
+            border: 5px dotted;
+        }
+
+        #button2 {
+            padding: 50px;
+            background-color: palevioletred;
+            border: 10px dashed blue;
+            /**/
+            border-radius: 30px;
+            /**/
+            box-sizing: border-box;
+            /**/
+        }
+
+        #button3 {
+            padding: 30px;
+            background-color: green;
+            box-sizing: content-box;
+            border-radius: 20px 20px 2px 20px;
+            /*It starts from left corner then right and then the rest.*/
+        }
+    </style>
+</head>
+
+<body>
+    <button id="button1">Submit</button><br>
+    <button id="button2">Click Me</button><br>
+    <button id="button3">Register</button>
+</body>
+
+</html>

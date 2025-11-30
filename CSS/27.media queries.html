@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        .box {
+            background-color: green;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        /*Inspect and change the width to check the difference.*/
+
+        @media screen and (width: 200px) {
+            #box1 {
+                background-color: aqua;
+            }
+        }
+
+        @media screen and (min-width: 300px) {
+            #box2 {
+                background-color: hotpink;
+
+            }
+        }
+
+        @media screen and (max-width: 300px) {
+            #box3 {
+                background-color: yellowgreen;
+            }
+        }
+
+        @media screen and (min-width: 300px) and (max-width: 400px) {
+            #box4 {
+                background-color: lightslategray;
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box1" class="box"></div>
+    <div id="box2" class="box"></div>
+    <div id="box3" class="box"></div>
+    <div id="box4" class="box"></div>
+</body>
+
+</html>

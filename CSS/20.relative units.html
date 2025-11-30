@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Units</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 50px;
+        }
+
+        #first {
+            height: 200px;
+            width: 300px;
+            font-size: 20px;
+            background-color: aqua;
+        }
+
+        #second {
+            height: 50%;
+            /*percentage of parent*/
+            width: 50%;
+            /*font-size: 2em;*/
+            /*commonly used for setting font sizes adaptively and size depends on the parent element*/
+            font-size: 2rem;
+            /*Similarly, "rem" facilitates sizing relative to root element.*/
+            background-color: chartreuse;
+        }
+
+        #third {
+            height: 50vh;
+            width: 50vw;
+            background-color: darkgoldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    Body Text
+    <div id="first">
+        First
+        <div id="second">
+            Second
+        </div>
+    </div>
+    <div id="third">50 percent height and width is defined that scale with the viewport</div>
+</body>
+
+</html>
